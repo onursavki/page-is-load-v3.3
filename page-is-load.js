@@ -1,7 +1,7 @@
-  window.addEventListener("load", function () {
-    const preloader = document.getElementById("preloader");
+window.addEventListener("load", function () {
+    var preloader = document.getElementById("preloader");
     preloader.style.opacity = "0";
-    setTimeout(() => {
+    setTimeout(function () {
       preloader.style.display = "none";
     }, 500);
   });
